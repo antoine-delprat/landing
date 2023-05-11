@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("webfontkit-20230511-091644/stylesheet.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+#banner {
+  background-image: url("https://images.ctfassets.net/4h67cva1xuos/42ZPP4oK955qfkZVFBwocv/87575be4eb82ce686db00a27f4ce2d02/AnchorPoint-SpikeChambers-surfline_.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 130px 0;
+}
+
+h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h1 {
+  font-family: 'silk_flower_demoregular';
+  color: bisque;
+}
+
+a {
+  text-decoration: none;
+}
+
+#footer {
+  height: 160px;
+  background-color: #5B8E7D;
+  padding: 30px;
+}
+
+#footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+}
+
+#footer ul li {
+  font-size: 30px;
+  color: #F4E285;
+  transition: 0.3s ease;
+}
+
+#footer ul li:hover {
+  color: #BC4B51;
+}
+
+#footer p {
+  text-align: center;
+  font-size: 15px;
+  color: #F4E285;
+  margin: 50px;
+}
